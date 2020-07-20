@@ -1,0 +1,88 @@
+#container{
+    width: 38%;
+    height: 80%;
+    min-width: 275px;
+    min-height: 270px;
+    background-color:rgb(62, 100, 4);
+    border: 2px solid rgb(50, 134, 1);
+}
+#heading{
+    color:white;
+    font-size:1rem;
+    background-color:black;
+    text-align:center;
+}
+#screen{
+    width: 100%;
+    height:15%;
+    background-color:white;
+    border: 1px solid black;
+    color: black;
+    font-size: 2.8rem;
+    overflow:hidden;
+
+}
+.button{
+    height: 30%;
+    width: 22%;
+    display: inline-block;
+    font-size: 1.8rem;
+    background-color: rgb(134, 29, 29);
+    padding: 5px;
+    margin:2px 0px 0px 0px;
+    color: black;
+    text-align: center;
+}
+#zero{
+    height: 30%;
+    width: 34%;
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 5px;
+    margin:2px 0px 0px 0px;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+#decimal{
+    height: 30%;
+    width: 34.5%;
+    display: inline-block;
+    font-size: 1.8rem;
+    margin:2px 0px 0px 0px;
+    border: 1px solid wheat;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    background-color:rgb(134, 29, 29);
+}
+@media screen and (max-width:600px){
+    .button{
+        width:19%;
+        height:25%;
+    }
+    #decimal{
+        width:29%;
+        height:30%;
+
+    }
+    #container{
+        width:35%;
+        min-width: 222px;
+    }
+}
+@media screen and (max-width:990px){
+    .button{
+        width:21%;
+        height:25%;
+    }
+    #decimal{
+        width:33.5%;
+        height:30%;
+
+    }
+    #container{
+        width:36%;
+        min-width: 280px;
+    }
+}
